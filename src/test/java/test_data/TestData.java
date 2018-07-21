@@ -17,10 +17,12 @@ public class TestData {
 
     public static final Artist daveLombardo  = new Artist("Dave Lombardo", "USA");
 
-    public static final Artist oceanElzy = new Artist("Ocean Elzy", "Ukraine");
+    public static final Artist vakarchuk = new Artist("V. Vakarchuk", "Ukraine");
 
     public static final Artist slayer = new Artist("Slayer",
             Arrays.asList(tomAraya, kerryKing, jeffHanneman, daveLombardo), "USA");
+
+    public static final Artist oceanElzy = new Artist("Ocean Elzy", Arrays.asList(vakarchuk), "Ukraine");
 
     public static final Album oneTrackAlbum = new Album(
             "Single album", Collections.singletonList(TestData.track1), Collections.EMPTY_LIST);
